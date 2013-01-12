@@ -1,0 +1,18 @@
+ # Set server path
+server: http://localhost:${port}
+
+load:
+ # Add libraries
+  - ${testLibraryPath}/equiv.js
+  - ${testLibraryPath}/QUnitAdapter.js
+
+ # Add source
+#foreach($sourcePath in $sourcePathList)
+  - ${sourcePath}/*.js
+#end
+
+test:
+ # Add test source
+#foreach($testSourcePath in $testSourcePathList)
+  - ${testSourcePath}/*.js
+#end

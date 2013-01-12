@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.newWizards">
+      <category
+            name="JsTestDriver Project Helper"
+            id="in.inagaki.jstestdriverprojecthelper">
+      </category>
+      <wizard
+            name="JsTestDriver Project Configuration"
+            icon="icons/sample.gif"
+            category="in.inagaki.jstestdriverprojecthelper"
+            class="in.inagaki.jstestdriverprojecthelper.wizards.JsTestDriverProjectConfiguration"
+            id="in.inagaki.jstestdriverprojecthelper.wizards.JsTestDriverProjectConfiguration">
+      </wizard>
+      <wizard
+            name="QUnit Test Case"
+            icon="icons/sample.gif"
+            category="in.inagaki.jstestdriverprojecthelper"
+            class="in.inagaki.jstestdriverprojecthelper.wizards.QUnitTestCase"
+            id="in.inagaki.jstestdriverprojecthelper.wizards.QUnitTestCase">
+      </wizard>
+   </extension>
+   <extension id="preferences" point="org.eclipse.core.runtime.preferences" name="preferences">
+		<scope name="project" class="org.eclipse.core.internal.resources.ProjectPreferences"/>
+   </extension>
+</plugin>
