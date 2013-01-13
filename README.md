@@ -19,3 +19,6 @@ This Eclipse plug-in supports JavaScript testing via JsTestDriver with following
 5. Fill the settings
 6. Library files are copied to library directory and configuration file is created to the project root directory
 7. Select "JsTestDriver Project Helper" - "QUnit Test Case" to create test code template
+
+# License
+You may use the project under the terms of the MIT License
