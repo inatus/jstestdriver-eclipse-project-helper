@@ -13,9 +13,9 @@ This Eclipse plug-in supports JavaScript testing via JsTestDriver with following
 (Easiest way to build Eclipse plug-in is to import the project to Eclipse and export it as "Deployable plug-ins and fragments")
 2. Install the plug-in to "dropins" folder of Eclipse
 3. Right click the target project and select "New" - "Other..."
-![Alt text](image/image1.png)
+![Alt text](/image/image1.png)
 4. Select "JsTestDriver Project Helper" - "JsTestDriver Project Configuration"
-![Alt text](image/image2.png)
+![Alt text](/image/image2.png)
 5. Fill the settings
 6. Library files are copied to library directory and configuration file is created to the project root directory
 7. Select "JsTestDriver Project Helper" - "QUnit Test Case" to create test code template
